@@ -1,0 +1,25 @@
+
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 740px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+/*  */
+.account div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;   
+        padding-left: 0;
+        padding-right: 0;
+}
+.account div div:first-child{
+    font-weight: bold;
+}

@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    color: #6d6e71;
+    font-size: 25px;
+    background-image: url(../../../public/images/IncreaseBalance.png);
+    background-size: 100%;
+    /* height:fit-content; */
+    width: 900px;
+    height: 610px;
+
+    background-color: white;
+    border-radius: 30px;
+}
+.header{
+    font-size: 24px;
+    /* font-family: ; */
+    color:  #6d6e71;
+    text-align: right;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.data{
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(107, 107, 107, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    /* color: white; */
+    padding: 20px 40px;
+    border-radius: 20px 20px 0 0;
+    margin: 21px;
+    position: relative;
+}
+.profile{
+    position: absolute;
+    top: -73px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: right;
+}
+.textInputs{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: right;
+    margin-top: 30px;
+}
+.name{
+    text-align: right;
+    width: 150px;
+    border-bottom: 2px solid gray;
+    margin: 40px 15px;
+    padding-bottom: 10px;
+}
+#email{
+    width: 300px;
+    margin-right: 30px;
+}
+.dateContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: right;
+    width: 400px;
+}
+.textBirth{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 92%;
+    font-size: 20px;
+
+}
+.birthDate{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: right;
+    width: 400px;
+}
+.date{
+    width:90px;
+    text-align: right;
+    border-bottom: 2px solid gray;
+    margin: 20px 15px 0;
+
+}
+.gender{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgb(203, 203, 203);
+    /* margin-bottom: 10px; */
+}
+.genderOption{
+display: flex;
+flex-direction: row;
+margin:  0 20px;
+}
+.gender input {
+    margin: 0 10px;
+    font-size: 28px;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 50%;
+    padding: 15px;
+}
+.lable{
+    color: rgb(70, 70, 70);
+    margin: 0 0 0 5px;
+    font-size: 20px;
+}
+/* .option{
+    margin: 0 30px;
+} */
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}

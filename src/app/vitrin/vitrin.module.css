@@ -1,0 +1,111 @@
+.vitrin{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yekan Bakh regular";
+
+    /* background-image: url(../images/DW_1_07.png); */
+    /* filter: ; */
+    /* -webkit-filter: blur(15px); */
+    width: 100%;
+    /* background-color: rgba(255, 255, 255 , 0.9); */
+/* opacity: 0.5; */
+}
+.background{
+    width: 100%;
+    background-color: rgba(236, 236, 236, 0.9);
+}
+.head_vitrin{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.head_vitrin h1{
+    font-size: 40px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6d6e71;
+    margin: 0;
+}
+.head_vitrin p{
+    font-size: 25px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f59220;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.vitrinOrg{
+    background-color: white; width: 1051px; margin: 0 auto; border-radius: 20px;
+}
+.vitrin_content{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center ;
+    margin: 0 auto;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.text_vitrin{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    justify-content: flex-start;
+    margin-right: 30px;
+    HEIGHT: 290px;
+
+
+}
+.text_vitrin h3{
+    margin-top: 0;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6d6e71;
+    font-size: 25px;
+
+}
+.text_vitrin p{
+    font-size: 18px;
+    text-align: right;
+    color: #6d6e71;
+    /* font-size: 18px; */
+    width: 482px;
+}
+.text_vitrin div{
+    /* width: 407px; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    /* align-items: flex-end; */
+}
+.text_vitrin div p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer_vitrin{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start !important;
+    align-items: center;
+    margin-top: 30px;
+    width: 98%;
+
+}
+.footer_vitrin div{
+    margin: 0 5px;
+    color:#6d6e71
+}
+.social_logo{
+    width: 22px;
+    /* aspect-ratio:1 */
+    aspect-ratio: 1;    
+    height: 22px;
+}

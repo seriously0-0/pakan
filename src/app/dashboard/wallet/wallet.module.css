@@ -1,0 +1,14 @@
+.wallet{
+    display: flex;
+    flex-direction: column;
+    width: 895px;
+    height: 783px;
+    position: absolute;
+    top : 266px;
+    left: 0;
+    border-radius: 20px;
+    background-color: #004594;
+    color: white;
+    /* margin: 50px 50px; */
+    padding: 50px;
+}

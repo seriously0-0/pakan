@@ -1,0 +1,142 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right_side{
+    padding: 0 0 0 20px;
+    font-family: "Yekan Bakh regular";
+    /* width: 100%; */
+
+}
+.user{
+    font-size: 35px;
+    color: #004594;
+    font-weight: 900;
+    margin-right: 20px;
+    font-family: "yekan bakh medium";
+}
+.profile_box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    /* padding: 20px; */
+    color: #6d6e71;
+    
+}
+.name_number{
+    display: flex;
+    flex-direction: row-reverse;
+    padding:10px 23px 0px; 
+}
+.name_number div{
+    margin-bottom: 3px;
+    margin-top: 8px;
+    font-family: "yekan bakh regular";
+}
+.name_number div:nth-child(2){
+    margin-top: 0;
+}
+.pro_photo{
+    width: 50px;
+    height: 50px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+.kifPol{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 23px 10px 0px;
+    font-size: 18px;
+    color: white;
+    background-color: #004594;    
+}
+.kif{
+    display: flex;
+    flex-direction: row;
+    width: 15px;
+    height: 15px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.options{
+    color:#aeaeae;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: center; */
+    padding: 13px 19px 13px 32px;
+
+}
+.options div{
+    display: flex;
+     flex-direction: row-reverse;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 1px 13px 32px;
+}
+.wallet{
+    padding: 7px 1px 13px 32px;
+    background-color: #d7e3f18c;
+    color: #004594;
+    border-right:6px solid #004594 ;
+
+}
+.loge_out div{
+    border-top:2px solid #70707042 ;
+    font-size: 15px !important;
+    /* padding-bottom: 20px !important;     */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 24px; 
+}
+/* .wallet .tick_op{
+    border-color: white;
+} */
+.tick_op{
+    width: 15px;
+    height: 15px;
+    border:2px solid #004594;
+    border-radius: 50%;
+    padding: 0 !important;
+    margin-left: 10px;
+    background-color: #004594;
+}
+.tick_opSecond{
+    width: 15px;
+    height: 15px;
+    border:2px solid #004594;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0 !important;
+    margin-left: 10px;
+}
+.tick_plus{
+    padding: 0 !important;
+    margin-left: 10px;
+}
+.left_side{
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 20px;
+    /* display: block; */
+    display: none;
+}
+.left_side_secondClass{
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: block !important;
+    /* display: flex; */
+}

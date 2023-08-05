@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    color: #6d6e71;
+    font-size: 25px;
+    background-image: url(../../../public/images/IncreaseBalance.png);
+    background-size: 100%;
+    /* height:fit-content; */
+    width: 900px;
+    height: 610px;
+
+    background-color: white;
+    border-radius: 30px;
+}
+.container p{
+    font-size: 24px;
+    /* font-family: ; */
+    color:  #6d6e71;
+    text-align: right;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.credit{
+    width: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    padding: 50px;
+}
+.headCredit{
+    background-color:  #004594;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px 20px 0 0;
+}
+
+.banks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+.nameBank{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.bankLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+.branch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "Yekan Bakh regular";
+
+}
+.branch h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    color:#6d6e71;
+    letter-spacing: normal;
+}
+.branch p {
+    font-size: 25px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f59220;
+    margin: 0;
+}
+.head_branch{
+    margin-bottom: 50px;
+}
+.branch_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 69px 1px rgba(153, 113, 0, 0.2);
+    padding: 20px 60px;
+    border-radius: 20px;
+}
+.sefid{
+    background-color: rgb(66, 205, 89);
+}
+.sabz{
+    background-color: rgb(63, 104, 198);
+
+}
+/* .branch-content:hover{
+    box-shadow: 0px 8px 37px 10px rgba(0, 0, 0, 0.2)
+} */
+.branch_address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.branch_address div{
+    font-size: 18px;
+    font-family: "yekan bakh medium";
+    letter-spacing: normal;
+    text-align: center;
+    color: #b1b5c2;  
+    margin: 10px 5px;
+}
+#center{
+    color: #0054a6;
+}
+.noghtechin{
+    color: #f59220 !important;
+}
+.address , .phone{
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6e6f72;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+.phone div{
+    margin: 10px 5px;
+    padding: 0 !important;
+}
+.phone_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.phone_icon img{
+    width: 20px;
+    height: 20px;
+}
+.khat{
+    width: 1px;
+    height: 20px;
+    background-color: #6d6e71;
+    margin: 0 15px;
+}

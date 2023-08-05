@@ -1,0 +1,188 @@
+.left_side{
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 20px;
+    /* display: block; */
+    /* display: none; */
+    /* position: absolute;
+    top: 266px; */
+}
+.left_side_secondClass{
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: block !important;
+    /* display: flex; */
+}
+
+.dashboard_photo div{
+    font-size: 25px;
+    color: #6d6e71;
+    font-weight: 900;
+    margin: 0px 30px 20px;
+    /* margin-top: 40px; */
+    padding-top: 20px;
+
+}
+.dashboard_photo img{
+    margin: 0px 30px;
+
+}
+.box{
+    box-shadow:5px 9px 83px 16px rgba(0,0, 0, 0.05);
+    padding: 25px 0;
+    border-radius: 15px;
+    padding-bottom: 0;
+    font-size: 18px;
+    color: #707070;
+    max-width: 810px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+/* .last_req{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    font-family: "Yekan Bakh regular";
+
+}
+.last_req div:first-child{
+    margin: 0 0 9px 457px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 2.8;
+    letter-spacing: normal;
+    text-align: right;
+    color: #f59220;
+    font-weight: bold;
+
+
+}
+.last_req div:nth-child(2){
+    color: 
+    #cccccc;
+ font-size: 20px;
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+ 
+}
+.last_req div:nth-child(2) i{
+    margin: 10px;
+    margin-top: 2px;
+}
+.num_req{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 740px;
+    border-bottom: 1px solid gray;
+    margin: 0 auto;
+    font-family: "Yekan Bakh regular";
+
+}
+.num_req div{
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: right;
+    color: #707070;
+    font-weight: bold;
+
+
+}
+.bullet_line{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 95px 0px;
+    position: relative;
+    max-width: 850px;
+}
+.bullet_line div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet_line  span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #80808094;
+    }
+.line{
+    width: 140px;
+    height: 2px;
+    background-color: #828282;
+    opacity: 0.5;
+}
+.bullet_line div p{
+    opacity: 0.5;
+}
+.bullet_line div:first-child  p{
+    position: absolute;
+    top: 43px;
+    right: 50px;
+
+
+}
+.bullet_line div:nth-child(2) p{
+    position: absolute;
+    top: 115px;
+    right: 195px;
+
+}
+.bullet_line div:nth-child(3) p{
+    position: absolute;
+    top: 43px;    
+    right: 371px;
+
+}
+.bullet_line div:nth-child(4) p{
+    position: absolute;
+    top: 115px;
+    right: 517px;
+}
+.bullet_line div:nth-child(5) p{
+    position: absolute;
+    top: 43px;    
+    right: 681px;
+}
+
+.account{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 740px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.account div{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.account div div:first-child{
+    font-weight: bold;
+}
+.fa_circle{
+    font-size: 24px; opacity: 0.5
+}
+.fa_angle_left{
+    font-size: 24px;
+} */
+

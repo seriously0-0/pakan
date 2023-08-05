@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    color: #6d6e71;
+    font-size: 25px;
+    /* background-image: url(../../../public/images/IncreaseBalance.png); */
+    background-size: 100%;
+    /* height:fit-content; */
+    width: 900px;
+    height: 610px;
+
+    background-color: white;
+    border-radius: 30px;
+}
+.container p{
+    font-size: 24px;
+    /* font-family: ; */
+    color:  #6d6e71;
+    text-align: right;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+}

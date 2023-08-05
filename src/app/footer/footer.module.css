@@ -1,0 +1,69 @@
+.footer{
+    width: 100%;
+    margin-top: 90px;
+    font-family: "Yekan Bakh regular";
+
+}
+.footer_logo{
+    margin-right: 70px;
+}
+.gray_section{
+    /* width: 100%; */
+    padding: 30px;
+    background-color:  #6d6e71;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    padding-top: 50px;
+}
+.gray_section div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer_vitrin{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start !important;
+    align-items: center;
+    margin-top: 30px;
+    width: 98%;
+}
+.footer_vitrin div{
+    margin: 0 5px;
+}
+.social_logo_section{
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 30px 0;
+
+}
+
+.social_logo_section img{
+    filter: grayscale(100%);
+    margin-top: 10px;
+}
+.header{
+    color: white;
+    font-weight: 300;
+    font-family: "yekan bakh medium";
+
+}
+.orange_section{
+    background-color: #f59220;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+        font-size: 12px;
+    padding: 10px 26px;
+}
+.right_side{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: local('Yekan Bakh Fat'), local('Yekan-Bakh-Fat'),
+        url('YekanBakh-Fat.woff2') format('woff2'),
+        url('YekanBakh-Fat.woff') format('woff'),
+        url('YekanBakh-Fat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

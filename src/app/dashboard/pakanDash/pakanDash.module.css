@@ -1,0 +1,36 @@
+
+.dashboard{
+    background-color: #ececec;
+    width: 1206px;
+    /* height: 1036px; */
+    padding: 40px 30px 39px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto;
+    text-align: right;
+    font-family: "Yekan Bakh regular";
+
+
+}
+/* *{
+    box-sizing: border-box;
+} */
+
+@font-face {
+    font-family: 'Yekan bakh fat';
+    src: url(/public/fonts/YekanBakh-Fat.woff2) format('truetype');
+font-weight:normal ;  } 
+@font-face {
+    font-family: 'Yekan bakh regular';
+    src: url(/public/fonts/YekanBakh-Regular.woff2) format('truetype');
+font-weight:normal;  }
+@font-face {
+    font-family: 'Yekan bakh medium';
+    src: url(/public/fonts/YekanBakh-Medium.woff2) format('truetype');
+font-weight:bolder ;  } 
+
+
+

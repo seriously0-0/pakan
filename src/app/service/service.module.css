@@ -1,0 +1,111 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Yekan Bakh regular";
+
+}
+.service h1{
+    text-align: center;
+    font-size: 40px;
+    width: 535px;
+    color: #6d6e71;
+    margin: 0;
+    padding-top: 40px;
+}
+.service h3{
+    font-size: 25px;
+    text-align: center;
+    color: #f59220;
+    margin: 0;
+}
+.service_sub{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    padding-top: 80px;
+    margin-bottom: 70px    
+}
+
+.name_service{
+    /* width: 516px; */
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 841px;
+
+}
+.name_service h3{
+    color: #6d6e71;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.name_service P{
+    color: #6d6e71;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.another_service{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 522px;
+    height: 497px;
+}
+.firstClassSelectItem {
+    width: 50%;
+    margin-bottom:30px ;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    color: #6d6e71;
+    font-size: 20px;
+
+    font-family: "yekan bakh regular";
+    font-weight: bolder;
+    margin-bottom: 0;
+
+}
+.imgFirstClass{
+    filter: hue-rotate(180deg);
+    height: 60px;
+
+}
+.imgSecondClass{
+    height: 60px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease
+}
+.secondClassSecondItem{
+    width: 50%;
+    margin-bottom:30px ;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    font-size: 20px;
+
+    font-family: "yekan bakh regular";
+    font-weight: bolder;
+    margin-bottom: 0;
+
+    color: 
+    #0054a6;
+
+}
+/* .another_service div:nth-child(5) p{
+    color: 
+    #0054a6;
+} */
+.serviceSubOrg{
+    display: flex; flex-direction: row; justify-content: center; align-items: center;
+}

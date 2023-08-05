@@ -1,0 +1,126 @@
+.container{
+background-color: #eff0f5;display: flex; justify-content: center; align-items: center;   
+font-family: "Yekan Bakh regular";
+
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 136px; */
+    width: 100%;
+    max-width: 1120px;
+}
+.mobile{
+    display: flex; justify-content:first baseline; align-items: center; max-width: 517px;
+}
+.mobile_photo{
+    display: grid;
+    /* margin-left: 102px; */
+    width: 100% ;
+    margin-left: 46px;
+
+}
+.mobile_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 663px;
+    margin-right: 47px;
+}
+.mobile{
+    grid-area: 1 / 1;
+}
+#num1{
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.logo_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo_pakan{
+    width: 98px;
+}
+.text_logo{
+    margin-right: 20px;
+
+}
+.text_logo h2{
+    font-size: 40px;
+    color: #6d6e71;
+    margin: 0;
+}
+.text_logo p{
+    font-size: 25px;
+    color: #f59220;
+    margin: 0;
+    font-family: "yekan bakh regular";
+
+}
+.explain_logo{
+    font-size: 18px;
+    color: #6d6e71;
+    margin: 25px 0;
+
+}
+.explain_logo {
+    /* white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    max-width: 95%;
+}
+.download_section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.download_section div{
+    width: 28%;
+    padding: 15px 38px;
+    margin: 10px 35px;
+    /* margin: 39.3px 28px 29px 0;
+    padding: 11px 26px; */
+    border-radius: 35px;
+    background-color: #0054a6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 0;
+
+}
+.download_section div p {
+    font-size: 20px;
+
+    margin: 0;
+    margin-right: 10px;
+}
+.circle{
+    border:1px solid #0b56a4;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.download_section div:nth-child(3){
+    background-color: #eff0f5;
+    border: solid 2px #0b56a4;
+    color: #0054a6;
+    width: 27%;
+
+}
+.download_section div:nth-child(4){
+    color: #b2c4d5;
+    background-color: #e1e8ef;;
+}
