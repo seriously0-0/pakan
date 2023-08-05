@@ -88,7 +88,7 @@ export default function Menu() {
       {menuType === "UserData" && <UserData />}
       {menuType === "changePass" && <ChangePass />}
       {menuType === "SaveAddress" && <MyAddress />}
-      {menuType === "turnover" && <Turnover />}
+      {/* {menuType === "turnover" && <Turnover />} */}
       {menuType === "Reqs" && <RequestOrg />} 
     </div>
   );

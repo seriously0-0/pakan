@@ -1,44 +1,200 @@
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: right;
+    color: #6d6e71;
+    font-size: 25px;
+    /* background-image: url(../../../public/images/IncreaseBalance.png); */
+    background-size: 100%;
+    /* height:fit-content; */
     width: 900px;
     height: 610px;
+
+    background-color: white;
+    border-radius: 30px;
+}
+.header{
+    font-size: 24px;
+    /* font-family: ; */
+    color:  #6d6e71;
+    text-align: right;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 35px;
+}
+.border{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 25px 0 0px;
+
+}
+.lineBorder{
+    width: 100px;
+    /* margin-left:34px ; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    border-radius: 20px;
+}
+.firstLine{
+    width: 37px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #bed3ea;
+    margin: 3px auto;
 
 }
-.header{
-    font-size: 25px;
-    color: 
-    #6d6e71;
-    text-align: right;
-
+.srcondLine{
+    margin: 3px auto;
+    width: 26px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #bed3ea;
+}
+.lastLine{
+    margin: 3px auto;
+    width: 16px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #bed3ea;
+}
+.textBorder{
+    color: #bed3ea;
+    font-size: 22px;
+}
+.data{
+    background-color: white;
+    /* box-shadow: 0px 0px 20px 0px rgba(107, 107, 107, 0.3); */
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:94%;
+    /* color: white; */
+    /* padding: 20px 40px; */
+    border-radius: 20px 20px 0 0;
+    /* margin: 21px; */
+    position: relative;
 }
 .table{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    height: 100px;
+    border-radius: 60px 0 0 60px ;
     
 }
 .table div{
-    /* margin: 30px; */
-        width: 100px;
+    margin: 4px;
+        width: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 18px;
+        padding: 7px 0;;
+}
+.table:nth-child(even){
+    background-color: 
+    #f5f5f5;
 }
 .number{
     margin: 30px 0px;
     display: flex;
     justify-self: flex-start;
-
+    width: 50px !important;
+}
+.numReq, .numResid{
+    width: 70px !important;
+    margin: 0 20px;
 }
 .tahvilData , .daryaftData{
     width: 120px;
 }
 .vaziatDarkhast{
-    width: 130px !important;
+    width: 150px !important;
+}
+.vaziatDarkhast:nth-child(2){
+    background-color:#e8ffd1;
+    color: #8dc63f;
+    border: 1px solid #8dc63f;
+    border-radius: 20px;
+}
+.firstStatus{
+    background-color:#e8ffd1;
+    color: #8dc63f;
+    border: 1px solid #8dc63f;
+    border-radius: 10px;
+}
+.secondStatus{
+    background-color:
+    #f6ebec;
+    color: 
+    #ec2127;
+    border: 1px solid 
+    #ec2127;
+    border-radius: 10px;
+}
+.lastStatus{
+    background-color:
+    #fffcd9;
+    color: 
+    #d1aa2b;
+    border: 1px solid 
+    #d1aa2b;
+    border-radius: 10px;
+}
+.firstSituation{
+/* background-image: url(../../../public/images/Send\ msg.png); */
+width: 55px !important;
+background-color: orange;
+height: 55px;
+margin-right: 49px !important;
+margin-left: 65px !important;
+border-radius: 50%;
+}
+.secondSituation{
+    width: 55px !important;
+    background-color: rgb(210, 207, 201);
+    height: 55px;
+    margin-right: 49px !important;
+    margin-left: 65px !important;
+    border-radius: 50%;
+}
+.lastSituation{
+    width: 55px !important;
+    background-color: #8dc63f;
+    height: 55px;
+    margin-right: 49px !important;
+    margin-left: 65px !important;
+    border-radius: 50%;
+}
+.pageNumber{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    width: 93%;
+    margin: 20px 56px;
+    font-size: 20px;
+    color: grey;
+}
+.nextButton{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.page{
+    margin: 0 15px;
+
 }
